@@ -1,2 +1,2 @@
-:HL["/casaoriente/_next/static/chunks/013iz3ke4x50k.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"CtI0qGQxha3_RIk2JHy7H"}
+:HL["/casaoriente/_next/static/chunks/0b5~409b3jb62.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"HXlxDJ_mX6Ntc242GSmlx"}

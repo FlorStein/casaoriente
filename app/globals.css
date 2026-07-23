@@ -12,3 +12,30 @@ header{height:78px;position:absolute;z-index:20;top:0;left:0;right:0;padding:0 3
 @media(max-width:800px){header{height:68px;padding:0 5vw}nav{display:none}.hero-lines{margin:68px 4vw 0}.hero-top{top:88px;left:6%;right:6%}.hero-top span:first-child{display:none}.hero h1{left:6%;top:26%;font-size:20vw}.hero h1 em{margin-left:.3em}.hero>p{left:6%;right:6%;bottom:21%;font-size:12px}.book{width:88px;height:88px;right:7%;bottom:8%}.scroll{display:none}.welcome{padding:90px 5vw 70px}.welcome h2{font-size:11.5vw;margin:60px 0}.welcome-foot{grid-template-columns:1fr}.welcome-foot p,.welcome-foot span{grid-column:1}.rituals{padding:80px 4vw 0}.ritual-head{grid-template-columns:1fr}.ritual-head h2{font-size:14vw;margin:55px 0 0}.ritual-stage{grid-template-columns:1fr;height:auto}.ritual-photo{height:58vh;min-height:440px}.ritual-copy{min-height:420px;padding:42px 6vw}.ritual-copy h3{font-size:57px;margin:60px 0 28px}.ritual-tabs{grid-template-columns:1fr;margin:0 -4vw}.ritual-tabs button{height:72px;padding:0 5vw}.breath{padding:90px 5vw;grid-template-columns:1fr;gap:80px}.breath-orb{width:260px;height:260px;margin:auto}.breath-copy h2{font-size:14vw;margin:60px 0 38px}.garden{min-height:720px;padding:60px 5vw;align-items:flex-end}.garden:after{background:rgba(17,42,31,.58)}.garden-card{width:100%;padding:25px 0}.garden h2{font-size:13.5vw;margin:55px 0 35px}.philosophy{padding:90px 5vw;display:block}.philosophy>div{font-size:10vw;margin-top:60px}.philosophy aside{margin-top:50px}.agenda{padding:90px 5vw;grid-template-columns:1fr;gap:60px}.agenda h2{font-size:14vw;margin:60px 0 35px}.days button{height:85px}.slots a{grid-template-columns:55px 1fr auto}.slots a i{display:none}.visit{min-height:680px;padding:75px 5vw}.visit h2{font-size:16vw;margin:65px 0}.visit>a{font-size:20px}.visit-meta{grid-template-columns:1fr 1fr}.visit-meta p:nth-child(3){display:none}footer{flex-wrap:wrap;gap:18px}footer>a:last-child{margin-left:auto}}
 @media(max-width:390px){.hero h1{font-size:19vw}.welcome h2{font-size:10.8vw}.ritual-head h2,.breath-copy h2,.agenda h2{font-size:13vw}.garden h2{font-size:12.7vw}.visit h2{font-size:15vw}.slots a{font-size:11px}.brand span{display:none}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;animation:none!important;transition:none!important}.hero>img{transform:none}}
+
+/* Editorial cover v2 — organic composition without architectural grid */
+.hero-lines{display:none}
+.hero>img{object-position:center;transform:translateX(var(--x,0)) scale(1.035);transition:transform .35s ease-out}
+.hero .shade{background:linear-gradient(90deg,rgba(12,25,19,.68) 0%,rgba(12,25,19,.26) 46%,rgba(12,25,19,.1) 75%),linear-gradient(0deg,rgba(9,29,22,.55),transparent 48%)}
+.hero-top{top:108px;letter-spacing:.22em}
+.hero h1{top:29%}
+.hero>p{bottom:12%}
+.book{bottom:9%;border-color:rgba(255,255,255,.78);backdrop-filter:blur(5px)}
+.hero-note{position:absolute;right:4.5%;top:36%;display:flex;align-items:flex-start;gap:18px;writing-mode:vertical-rl;transform:rotate(180deg)}
+.hero-note span{font-family:"Italiana";font-size:30px}
+.hero-note p{font-size:7px;line-height:1.7;letter-spacing:.14em;text-transform:uppercase;margin:0}
+.garden:after{background:linear-gradient(90deg,rgba(17,42,31,.08),rgba(17,42,31,.82))}
+.visit>img{object-position:center}
+
+@media(max-width:800px){
+  .hero-top span:first-child{display:block}
+  .hero-top span:last-child{display:none}
+  .hero>img{object-position:61% center}
+  .hero h1{top:25%}
+  .hero h1 em{margin-left:.2em}
+  .hero>p{right:24%;bottom:20%}
+  .book{bottom:7%}
+  .hero-note{display:none}
+  .garden:after{background:rgba(17,42,31,.62)}
+  .visit>img{object-position:47% center}
+}

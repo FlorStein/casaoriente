@@ -28,13 +28,13 @@ export default function Home(){
     </header>
     {menu&&<div className="drawer"><small>UN REFUGIO URBANO · BUENOS AIRES</small>{["La casa","Rituales","Agenda","Visitanos"].map((x,i)=><a key={x} onClick={()=>setMenu(false)} href={`#${x.toLowerCase().replace(" ","-")}`}><sup>0{i+1}</sup>{x}<span>↗</span></a>)}</div>}
     <section className="hero" id="inicio" ref={hero}>
-      <img src={asset("/images/patio-casa-oriente.png")} alt="Patio interno de Casa Oriente"/>
-      <div className="shade"/><div className="hero-lines"/>
-      <div className="hero-top"><span>34°35′S · 58°23′O</span><span>BIENESTAR EN LA CIUDAD</span></div>
+      <img src={asset("/images/hero-editorial-v2.png")} alt="Una mañana de bienestar en Casa Oriente"/>
+      <div className="shade"/>
+      <div className="hero-top"><span>CASA DE BIENESTAR · BUENOS AIRES</span><span>EST. 2026</span></div>
       <h1><span>Volver</span><em>a vos.</em></h1>
       <p>Una casona, un jardín y el tiempo necesario para moverte, soltar y respirar.</p>
       <a className="book" href="#agenda"><span>Reservar<br/>una experiencia</span><b>↘</b></a>
-      <div className="scroll">DESCUBRIR <i/> 01</div>
+      <div className="hero-note"><span>01</span><p>Pilates, terapias y pausas<br/>alrededor de un jardín.</p></div>
     </section>
 
     <section className="welcome" id="casa">
@@ -58,7 +58,7 @@ export default function Home(){
     </section>
 
     <section className="garden">
-      <img src={asset("/images/salon-te.png")} alt="Salón de té abierto al jardín"/>
+      <img src={asset("/images/jardin-sensorial.png")} alt="Infusión junto al agua en el jardín"/>
       <div className="garden-card"><span className="eyebrow">[ EL JARDÍN ADENTRO ]</span><h2>Tu experiencia<br/>no termina<br/><em>cuando termina.</em></h2><p>Después de cada sesión, el salón y el jardín te esperan con una infusión de estación. Llegar, practicar y volver al mundo de a poco.</p></div>
     </section>
 
@@ -77,7 +77,7 @@ export default function Home(){
     </section>
 
     <section className="visit" id="visitanos">
-      <img src={asset("/images/patio-casa-oriente.png")} alt="Jardín de Casa Oriente"/>
+      <img src={asset("/images/llegada-casa-oriente.png")} alt="La entrada de Casa Oriente al atardecer"/>
       <div className="visit-shade"/><span className="eyebrow">[ VENÍ A CASA ]</span><h2>Hay un lugar<br/><em>esperándote.</em></h2><a href="mailto:hola@casaoriente.com">hola@casaoriente.com <span>↗</span></a>
       <div className="visit-meta"><p>Palermo<br/>Buenos Aires</p><p>Lun—Sáb<br/>08:00—20:00</p><p>Instagram<br/>WhatsApp</p></div>
     </section>
