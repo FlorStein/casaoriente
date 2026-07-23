@@ -57,3 +57,19 @@ header{height:78px;position:absolute;z-index:20;top:0;left:0;right:0;padding:0 3
   .courtyard-caption>p{margin:35px 0 42px}
   .courtyard-caption em{font-size:13vw}
 }
+
+/* Mobile usability polish */
+@media(max-width:800px){
+  section[id]{scroll-margin-top:24px}
+  header .brand{min-width:72px;min-height:44px}
+  header .menu{min-width:76px;min-height:44px;justify-content:flex-end;padding:0}
+  .eyebrow{font-size:9px;line-height:1.4}
+  .ritual-copy a{min-height:44px;align-items:center}
+  .ritual-tabs button{min-height:76px}
+  .days button{min-height:88px}
+  .slots a{min-height:64px}
+  .visit>a{min-height:48px;display:flex;align-items:center}
+  footer .brand,footer>a:last-child{min-height:44px;display:flex;align-items:center}
+  .drawer{padding-left:6vw;padding-right:6vw}
+  .drawer a{min-height:70px;align-items:center}
+}
