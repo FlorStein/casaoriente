@@ -43,6 +43,18 @@ export default function Home(){
       <div className="welcome-foot"><p>Recuperamos una casona porteña alrededor de su jardín interno. Cada sala se abre a la luz, al agua y al verde para que el bienestar empiece antes de cada práctica.</p><span>PALERMO · BUENOS AIRES</span></div>
     </section>
 
+    <section className="courtyard">
+      <div className="courtyard-frame">
+        <img src={asset("/images/patio-casa-oriente.png")} alt="Jardín interno con pileta de Casa Oriente"/>
+        <span className="courtyard-index">02 / EL CORAZÓN DE LA CASA</span>
+      </div>
+      <div className="courtyard-caption">
+        <span className="eyebrow">[ PATIO CENTRAL ]</span>
+        <p>El agua marca otro tiempo. El jardín conecta cada sala y acompaña el ritmo de la casa durante todo el día.</p>
+        <em>Un oasis<br/>hacia adentro.</em>
+      </div>
+    </section>
+
     <section className="rituals" id="rituales">
       <div className="ritual-head"><span className="eyebrow">[ EXPERIENCIAS ]</span><h2>Elegí cómo<br/><em>querés sentirte.</em></h2></div>
       <div className="ritual-stage">

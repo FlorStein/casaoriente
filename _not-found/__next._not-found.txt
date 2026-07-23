@@ -2,4 +2,4 @@
 2:I[21907,["/casaoriente/_next/static/chunks/0cc6ivl2rzcu9.js"],"default"]
 3:I[43777,["/casaoriente/_next/static/chunks/0cc6ivl2rzcu9.js"],"default"]
 4:[]
-0:{"rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"isPartial":false,"staleTime":300,"varyParams":"$W4","buildId":"HXlxDJ_mX6Ntc242GSmlx"}
+0:{"rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"isPartial":false,"staleTime":300,"varyParams":"$W4","buildId":"FqqSj9obLsag2m9ggaFXw"}

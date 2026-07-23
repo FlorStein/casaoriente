@@ -39,3 +39,21 @@ header{height:78px;position:absolute;z-index:20;top:0;left:0;right:0;padding:0 3
   .garden:after{background:rgba(17,42,31,.62)}
   .visit>img{object-position:47% center}
 }
+
+.courtyard{padding:0 4vw 140px;display:grid;grid-template-columns:minmax(0,1.75fr) minmax(280px,.65fr);gap:3vw;align-items:end}
+.courtyard-frame{height:min(76vw,900px);position:relative;overflow:hidden;border-radius:48% 48% 2px 2px}
+.courtyard-frame img{width:100%;height:100%;object-fit:cover;transition:transform 1.2s cubic-bezier(.2,.8,.2,1)}
+.courtyard-frame:hover img{transform:scale(1.025)}
+.courtyard-index{position:absolute;top:26px;left:30px;color:white;font-size:8px;letter-spacing:.18em;text-shadow:0 1px 8px rgba(0,0,0,.35)}
+.courtyard-caption{padding:0 1vw 5vh}
+.courtyard-caption>p{font-size:13px;line-height:1.75;max-width:330px;margin:55px 0 80px}
+.courtyard-caption em{font-family:"Italiana";font-size:clamp(42px,4.4vw,72px);line-height:.95;color:var(--green)}
+
+@media(max-width:800px){
+  .courtyard{padding:0 5vw 90px;grid-template-columns:1fr;gap:42px}
+  .courtyard-frame{height:128vw;max-height:720px;border-radius:46vw 46vw 2px 2px}
+  .courtyard-index{top:22px;left:22px}
+  .courtyard-caption{padding:0}
+  .courtyard-caption>p{margin:35px 0 42px}
+  .courtyard-caption em{font-size:13vw}
+}
